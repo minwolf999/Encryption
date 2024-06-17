@@ -20,6 +20,8 @@ Clone this repository and compile the project:
 ```bash
 git clone https://github.com/minwolf999/encryption.git
 cd encryption
+rm transformFile/.gitkeep
+rm previousFile/.gitkeep
 (cd code/decrypt && go build -o ../../decrypt)
 (cd code/encrypt && go build -o ../../encrypt)
 ```
